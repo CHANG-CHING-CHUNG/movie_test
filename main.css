@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 300px;
+  max-height: 420px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  max-width: 600px;
+  max-height: 800px;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.card-head {
+  margin-right: 2rem;
+}
+
+.story span {
+  white-space: pre-line;
+}
