@@ -47,7 +47,7 @@ function generatorTemp(data) {
   });
 }
 
-fetch("http://127.0.0.1:3000/getMovieInTheaters")
+fetch("http://movie-api.jas0nhuang.tw/")
   .then((res) => res.json())
   .then((data) => {
     generatorTemp(data).forEach((element) => {
